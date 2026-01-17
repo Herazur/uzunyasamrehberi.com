@@ -1,0 +1,72 @@
+# Robots.txt for Sağlık Rehberi
+# https://uzunyasamrehberi.com/
+
+# Allow all crawlers
+User-agent: *
+
+# Allow crawling of main pages
+Allow: /
+Allow: /index.html
+Allow: /makale.html
+Allow: /kategori/
+Allow: /etiket/
+Allow: /yazar/
+Allow: /hakkimizda
+Allow: /iletisim
+Allow: /makaleler
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /api/
+Disallow: /tables/
+Disallow: /private/
+Disallow: /_*
+
+# Disallow search result pages to avoid duplicate content
+Disallow: /arama?*
+
+# Allow CSS and JS for rendering
+Allow: /css/*.css
+Allow: /js/*.js
+Allow: /images/*
+
+# Crawl-delay for polite crawling (optional)
+# Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://uzunyasamrehberi.com/sitemap.xml
+
+# Google specific
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Google Image Bot
+User-agent: Googlebot-Image
+Allow: /images/
+
+# Bing specific
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Yandex specific
+User-agent: Yandex
+Allow: /
+Crawl-delay: 2
+
+# Baidu specific
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 2
+
+# Block bad bots (optional - uncomment if needed)
+# User-agent: AhrefsBot
+# Disallow: /
+
+# User-agent: SemrushBot
+# Disallow: /
+
+# User-agent: MJ12bot
+# Disallow: /
+
