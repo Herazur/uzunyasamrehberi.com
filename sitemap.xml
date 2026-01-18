@@ -1,140 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-    
-    <!-- Ana Sayfa -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://uzunyasamrehberi.com/</loc>
-        <lastmod>2024-01-15</lastmod>
-        <changefreq>daily</changefreq>
+        <lastmod>2026-01-18</lastmod>
+        <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
-    
-    <!-- Kategori Sayfaları -->
     <url>
-        <loc>https://uzunyasamrehberi.com/kategori/beslenme</loc>
-        <lastmod>2024-01-15</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://uzunyasamrehberi.com/kategori/fitness</loc>
-        <lastmod>2024-01-15</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://uzunyasamrehberi.com/kategori/hastaliklar</loc>
-        <lastmod>2024-01-15</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://uzunyasamrehberi.com/kategori/saglikli-yasam</loc>
-        <lastmod>2024-01-15</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://uzunyasamrehberi.com/kategori/ruh-sagligi</loc>
-        <lastmod>2024-01-15</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://uzunyasamrehberi.com/kategori/anne-cocuk</loc>
-        <lastmod>2024-01-15</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <!-- Statik Sayfalar -->
-    <url>
-        <loc>https://uzunyasamrehberi.com/hakkimizda</loc>
-        <lastmod>2024-01-01</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    
-    <url>
-        <loc>https://uzunyasamrehberi.com/iletisim</loc>
-        <lastmod>2024-01-01</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    
-    <url>
-        <loc>https://uzunyasamrehberi.com/yazarlar</loc>
-        <lastmod>2024-01-15</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://uzunyasamrehberi.com/makaleler</loc>
-        <lastmod>2024-01-15</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.9</priority>
-    </url>
-    
-    <url>
-        <loc>https://uzunyasamrehberi.com/anti-aging-takviye-2026.html</loc>
-        <lastmod>2026-01-15</lastmod>
+        <loc>https://uzunyasamrehberi.com/anti-aging-takviye-2026</loc>
+        <lastmod>2026-01-18</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.7</priority>
     </url>
-    
-    <!-- Yasal Sayfalar -->
-    <url>
-        <loc>https://uzunyasamrehberi.com/gizlilik-politikasi</loc>
-        <lastmod>2024-01-01</lastmod>
-        <changefreq>yearly</changefreq>
-        <priority>0.3</priority>
-    </url>
-    
-    <url>
-        <loc>https://uzunyasamrehberi.com/kullanim-kosullari</loc>
-        <lastmod>2024-01-01</lastmod>
-        <changefreq>yearly</changefreq>
-        <priority>0.3</priority>
-    </url>
-    
-    <url>
-        <loc>https://uzunyasamrehberi.com/cerez-politikasi</loc>
-        <lastmod>2024-01-01</lastmod>
-        <changefreq>yearly</changefreq>
-        <priority>0.3</priority>
-    </url>
-    
-    <url>
-        <loc>https://uzunyasamrehberi.com/kvkk</loc>
-        <lastmod>2024-01-01</lastmod>
-        <changefreq>yearly</changefreq>
-        <priority>0.3</priority>
-    </url>
-    
-    <!-- 
-    ÖRNEK MAKALE URL'LERİ
-    Not: Gerçek makaleler eklendiğinde bu bölüm dinamik olarak güncellenmelidir.
-    
-    <url>
-        <loc>https://uzunyasamrehberi.com/makale.html?id=1&amp;slug=saglikli-beslenmenin-10-altin-kurali</loc>
-        <lastmod>2024-01-15</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-        <image:image>
-            <image:loc>https://images.unsplash.com/photo-1490645935967-10de6ba17061</image:loc>
-            <image:title>Sağlıklı Beslenme</image:title>
-        </image:image>
-    </url>
-    -->
-    
 </urlset>
-

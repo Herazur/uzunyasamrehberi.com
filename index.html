@@ -30,7 +30,7 @@
     <meta property="og:title" content="Biohacking &amp; Longevity Rehberi | Kanitli Protokoller ve Takip">
     <meta property="og:description" content="Biohacking ve longevity odakli rehber. Kanita dayali protokoller, takip metrikleri, uyku ve metabolik esneklik stratejileri.">
     <meta property="og:url" content="https://uzunyasamrehberi.com/">
-    <meta property="og:image" content="https://uzunyasamrehberi.com/images/og-image.jpg">
+    <meta property="og:image" content="https://uzunyasamrehberi.com/images/anti-aging-takviye-2026.webp?v=1">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:image:alt" content="Biohacking ve Longevity Rehberi">
@@ -58,7 +58,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
 
     <!-- Ana Stil Dosyasi -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
 
     <!-- Schema.org Yapi Veri - WebSite -->
     <script type="application/ld+json">
@@ -70,14 +70,6 @@
         "url": "https://uzunyasamrehberi.com/",
         "description": "Biohacking ve longevity odakli, kanita dayali protokoller ve takip rehberi.",
         "inLanguage": "tr-TR",
-        "potentialAction": {
-            "@type": "SearchAction",
-            "target": {
-                "@type": "EntryPoint",
-                "urlTemplate": "https://uzunyasamrehberi.com/arama?q={search_term_string}"
-            },
-            "query-input": "required name=search_term_string"
-        },
         "publisher": {
             "@type": "Organization",
             "name": "LongevityLab",
@@ -175,29 +167,17 @@
 
                     <ul id="main-menu" class="nav-menu" role="menubar">
                         <li role="none"><a href="/" role="menuitem" class="active" aria-current="page">Ana Sayfa</a></li>
-                        <li role="none" class="has-dropdown">
-                            <a href="/alanlar" role="menuitem" aria-haspopup="true" aria-expanded="false">
-                                Odak Alanlari <i class="fas fa-chevron-down" aria-hidden="true"></i>
-                            </a>
-                            <ul class="dropdown-menu" role="menu" aria-label="Odak alanlari alt menusu">
-                                <li role="none"><a href="/kategori/sirkadiyen-uyku" role="menuitem">Sirkadiyen &amp; Uyku</a></li>
-                                <li role="none"><a href="/kategori/metabolik-esneklik" role="menuitem">Metabolik Esneklik</a></li>
-                                <li role="none"><a href="/kategori/guc-dayaniklilik" role="menuitem">Guc &amp; Dayaniklilik</a></li>
-                                <li role="none"><a href="/kategori/kognitif-performans" role="menuitem">Kognitif Performans</a></li>
-                                <li role="none"><a href="/kategori/recovery-stres" role="menuitem">Recovery &amp; Stres</a></li>
-                                <li role="none"><a href="/kategori/supplement-stack" role="menuitem">Supplement &amp; Stack</a></li>
-                            </ul>
-                        </li>
-                        <li role="none"><a href="/protokoller" role="menuitem">Protokoller</a></li>
-                        <li role="none"><a href="/rehberler" role="menuitem">Rehberler</a></li>
-                        <li role="none"><a href="/takip" role="menuitem">Takip</a></li>
-                        <li role="none"><a href="/hakkimizda" role="menuitem">Hakkimizda</a></li>
-                        <li role="none"><a href="/iletisim" role="menuitem">Iletisim</a></li>
+                        <li role="none"><a href="/#categories" role="menuitem">Odak Alanlari</a></li>
+                        <li role="none"><a href="/#latest" role="menuitem">Protokoller</a></li>
+                        <li role="none"><a href="/anti-aging-takviye-2026" role="menuitem">Rehber</a></li>
+                        <li role="none"><a href="/#newsletter" role="menuitem">Bulten</a></li>
+                        <li role="none"><a href="/#iletisim" role="menuitem">Iletisim</a></li>
                     </ul>
 
                     <div class="nav-search">
-                        <form action="/arama" method="GET" role="search" aria-label="Site ici arama">
+                        <form action="https://www.google.com/search" method="GET" role="search" aria-label="Site ici arama">
                             <label for="search-input" class="visually-hidden">Arama</label>
+                            <input type="hidden" name="sitesearch" value="uzunyasamrehberi.com">
                             <input type="search" id="search-input" name="q" placeholder="Protokol veya metrik ara..." autocomplete="off" aria-label="Arama terimi girin">
                             <button type="submit" aria-label="Ara">
                                 <i class="fas fa-search" aria-hidden="true"></i>
@@ -218,8 +198,9 @@
                     <h1 id="hero-title">Longevity odakli <span class="highlight">yasam rehberi</span></h1>
                     <p class="hero-description">Biohacking prensipleriyle daha uzun, enerjik ve net bir hayat.</p>
                     <div class="hero-search">
-                        <form action="/arama" method="GET" role="search" aria-label="Ana arama">
+                        <form action="https://www.google.com/search" method="GET" role="search" aria-label="Ana arama">
                             <label for="hero-search-input" class="visually-hidden">Biohacking konusu ara</label>
+                            <input type="hidden" name="sitesearch" value="uzunyasamrehberi.com">
                             <input type="search" id="hero-search-input" name="q" placeholder="HRV, glukoz, sirkadiyen, zone 2..." autocomplete="off">
                             <button type="submit">
                                 <i class="fas fa-search" aria-hidden="true"></i>
@@ -229,12 +210,12 @@
                     </div>
                     <div class="hero-tags">
                         <span class="tag-label">Trend basliklar:</span>
-                        <a href="/arama?q=hrv" class="hero-tag">HRV</a>
-                        <a href="/arama?q=sirkadiyen" class="hero-tag">Sirkadiyen</a>
-                        <a href="/arama?q=glukoz" class="hero-tag">Glukoz</a>
-                        <a href="/arama?q=zone+2" class="hero-tag">Zone 2</a>
-                        <a href="/arama?q=cold+exposure" class="hero-tag">Cold Exposure</a>
-                        <a href="/arama?q=red+light" class="hero-tag">Red Light</a>
+                        <a href="https://www.google.com/search?q=site%3Auzunyasamrehberi.com+HRV" class="hero-tag">HRV</a>
+                        <a href="https://www.google.com/search?q=site%3Auzunyasamrehberi.com+Sirkadiyen" class="hero-tag">Sirkadiyen</a>
+                        <a href="https://www.google.com/search?q=site%3Auzunyasamrehberi.com+Glukoz" class="hero-tag">Glukoz</a>
+                        <a href="https://www.google.com/search?q=site%3Auzunyasamrehberi.com+Zone+2" class="hero-tag">Zone 2</a>
+                        <a href="https://www.google.com/search?q=site%3Auzunyasamrehberi.com+Cold+Exposure" class="hero-tag">Cold Exposure</a>
+                        <a href="https://www.google.com/search?q=site%3Auzunyasamrehberi.com+Red+Light" class="hero-tag">Red Light</a>
                     </div>
                 </div>
                 <div class="hero-stats">
@@ -264,7 +245,7 @@
         </section>
 
         <!-- Categories Section -->
-        <section class="categories-section" aria-labelledby="categories-title">
+        <section id="categories" class="categories-section" aria-labelledby="categories-title">
             <div class="container">
                 <header class="section-header">
                     <h2 id="categories-title">Longevity Alanlari</h2>
@@ -272,72 +253,72 @@
                 </header>
 
                 <div class="categories-grid">
-                    <a href="/kategori/sirkadiyen-uyku" class="category-card" aria-label="Sirkadiyen ve uyku kategorisi">
+                    <div class="category-card">
                         <div class="category-icon" style="--category-color: #0ea5a4;">
                             <i class="fas fa-moon" aria-hidden="true"></i>
                         </div>
                         <h3>Sirkadiyen &amp; Uyku</h3>
                         <p>Uyku mimarisi, isik hijyeni ve ritim optimizasyonu</p>
                         <span class="category-count" data-category="sirkadiyen-uyku">0 Protokol</span>
-                    </a>
+                    </div>
 
-                    <a href="/kategori/metabolik-esneklik" class="category-card" aria-label="Metabolik esneklik kategorisi">
+                    <div class="category-card">
                         <div class="category-icon" style="--category-color: #f97316;">
                             <i class="fas fa-fire" aria-hidden="true"></i>
                         </div>
                         <h3>Metabolik Esneklik</h3>
                         <p>Glukoz takibi, fasting ve insulin duyarliligi</p>
                         <span class="category-count" data-category="metabolik-esneklik">0 Protokol</span>
-                    </a>
+                    </div>
 
-                    <a href="/kategori/guc-dayaniklilik" class="category-card" aria-label="Guc ve dayaniklilik kategorisi">
+                    <div class="category-card">
                         <div class="category-icon" style="--category-color: #22c55e;">
                             <i class="fas fa-dumbbell" aria-hidden="true"></i>
                         </div>
                         <h3>Guc &amp; Dayaniklilik</h3>
                         <p>Zone 2, kuvvet, mobilite ve VO2 max gelisimi</p>
                         <span class="category-count" data-category="guc-dayaniklilik">0 Protokol</span>
-                    </a>
+                    </div>
 
-                    <a href="/kategori/kognitif-performans" class="category-card" aria-label="Kognitif performans kategorisi">
+                    <div class="category-card">
                         <div class="category-icon" style="--category-color: #38bdf8;">
                             <i class="fas fa-brain" aria-hidden="true"></i>
                         </div>
                         <h3>Kognitif Performans</h3>
                         <p>Odak, hafiza, neuroplastisite ve derin calisma</p>
                         <span class="category-count" data-category="kognitif-performans">0 Protokol</span>
-                    </a>
+                    </div>
 
-                    <a href="/kategori/recovery-stres" class="category-card" aria-label="Recovery ve stres kategorisi">
+                    <div class="category-card">
                         <div class="category-icon" style="--category-color: #facc15;">
                             <i class="fas fa-spa" aria-hidden="true"></i>
                         </div>
                         <h3>Recovery &amp; Stres</h3>
                         <p>Toparlanma, nefes ve soguk-sicak maruziyet</p>
                         <span class="category-count" data-category="recovery-stres">0 Protokol</span>
-                    </a>
+                    </div>
 
-                    <a href="/kategori/supplement-stack" class="category-card" aria-label="Supplement ve stack kategorisi">
+                    <div class="category-card">
                         <div class="category-icon" style="--category-color: #a3e635;">
                             <i class="fas fa-capsules" aria-hidden="true"></i>
                         </div>
                         <h3>Supplement &amp; Stack</h3>
                         <p>Temel takviyeler, kombinasyonlar ve guvenlik notlari</p>
                         <span class="category-count" data-category="supplement-stack">0 Protokol</span>
-                    </a>
+                    </div>
                 </div>
             </div>
         </section>
 
         <!-- Latest Articles Section -->
-        <section class="latest-section" aria-labelledby="latest-title">
+        <section id="latest" class="latest-section" aria-labelledby="latest-title">
             <div class="container">
                 <div class="latest-layout">
                     <div class="latest-main">
                         <header class="section-header">
                             <h2 id="latest-title">Kanitli Protokoller</h2>
-                            <a href="/protokoller" class="view-all-link">
-                                Tumunu Gor <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                            <a href="/anti-aging-takviye-2026" class="view-all-link">
+                                Rehberi Gor <i class="fas fa-arrow-right" aria-hidden="true"></i>
                             </a>
                         </header>
 
@@ -391,14 +372,14 @@
                                 Populer Etiketler
                             </h3>
                             <div class="tags-cloud" id="popular-tags">
-                                <a href="/etiket/hrv" class="tag">HRV</a>
-                                <a href="/etiket/nad" class="tag">NAD+</a>
-                                <a href="/etiket/glukoz" class="tag">Glukoz</a>
-                                <a href="/etiket/uyku" class="tag">Uyku</a>
-                                <a href="/etiket/sirkadiyen" class="tag">Sirkadiyen</a>
-                                <a href="/etiket/zone-2" class="tag">Zone 2</a>
-                                <a href="/etiket/cold-exposure" class="tag">Cold Exposure</a>
-                                <a href="/etiket/mikrobiyom" class="tag">Mikrobiyom</a>
+                                <span class="tag">HRV</span>
+                                <span class="tag">NAD+</span>
+                                <span class="tag">Glukoz</span>
+                                <span class="tag">Uyku</span>
+                                <span class="tag">Sirkadiyen</span>
+                                <span class="tag">Zone 2</span>
+                                <span class="tag">Cold Exposure</span>
+                                <span class="tag">Mikrobiyom</span>
                             </div>
                         </div>
                     </aside>
@@ -406,7 +387,7 @@
             </div>
         </section>
         <!-- Featured Insight Section -->
-        <section class="featured-section" aria-labelledby="featured-article-title">
+        <section id="featured" class="featured-section" aria-labelledby="featured-article-title">
             <div class="container">
                 <header class="section-header">
                     <h2 id="featured-article-title">&#214;ne &#199;&#305;kan Yaz&#305;</h2>
@@ -421,12 +402,12 @@
                         </div>
                         <div class="article-card-content">
                             <h3 class="article-card-title">
-                                <a href="anti-aging-takviye-2026.html">2026 i&#231;in en iyi ya&#351;lanma kar&#351;&#305;t&#305; (anti-aging) takviye hangisi?</a>
+                                <a href="/anti-aging-takviye-2026">2026 i&#231;in en iyi ya&#351;lanma kar&#351;&#305;t&#305; (anti-aging) takviye hangisi?</a>
                             </h3>
                             <p class="article-card-excerpt">&ldquo;En iyi&rdquo; takviye hedefe g&#246;re de&#287;i&#351;ir. 2026 trendlerini ve klinik bulgular&#305; tek yaz&#305;da toplad&#305;k.</p>
                             <div class="article-card-meta">
                                 <span class="article-card-date"><i class="fas fa-calendar-alt" aria-hidden="true"></i> 2026</span>
-                                <a href="anti-aging-takviye-2026.html" class="view-all-link">Devam&#305;n&#305; oku <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+                                <a href="/anti-aging-takviye-2026" class="view-all-link">Devam&#305;n&#305; oku <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
                             </div>
                         </div>
                     </article>
@@ -435,7 +416,7 @@
         </section>
 
         <!-- CTA Section -->
-        <section class="cta-section" aria-labelledby="cta-title">
+        <section id="newsletter" class="cta-section" aria-labelledby="cta-title">
             <div class="container">
                 <div class="cta-content">
                     <h2 id="cta-title">Longevity notlarini kacirma</h2>
@@ -458,7 +439,7 @@
     </main>
 
     <!-- Footer -->
-    <footer class="site-footer" role="contentinfo">
+    <footer id="iletisim" class="site-footer" role="contentinfo">
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-about">
@@ -472,36 +453,25 @@
                 <nav class="footer-nav" aria-label="Longevity Alanlari">
                     <h3>Longevity Alanlari</h3>
                     <ul>
-                        <li><a href="/kategori/sirkadiyen-uyku">Sirkadiyen &amp; Uyku</a></li>
-                        <li><a href="/kategori/metabolik-esneklik">Metabolik Esneklik</a></li>
-                        <li><a href="/kategori/guc-dayaniklilik">Guc &amp; Dayaniklilik</a></li>
-                        <li><a href="/kategori/kognitif-performans">Kognitif Performans</a></li>
-                        <li><a href="/kategori/recovery-stres">Recovery &amp; Stres</a></li>
-                        <li><a href="/kategori/supplement-stack">Supplement &amp; Stack</a></li>
+                        <li><span>Sirkadiyen &amp; Uyku</span></li>
+                        <li><span>Metabolik Esneklik</span></li>
+                        <li><span>Guc &amp; Dayaniklilik</span></li>
+                        <li><span>Kognitif Performans</span></li>
+                        <li><span>Recovery &amp; Stres</span></li>
+                        <li><span>Supplement &amp; Stack</span></li>
                     </ul>
                 </nav>
 
                 <nav class="footer-nav" aria-label="Hizli Baglantilar">
                     <h3>Hizli Baglantilar</h3>
                     <ul>
-                        <li><a href="/protokoller">Protokoller</a></li>
-                        <li><a href="/rehberler">Rehberler</a></li>
-                        <li><a href="/takip">Takip</a></li>
-                        <li><a href="/hakkimizda">Hakkimizda</a></li>
-                        <li><a href="/iletisim">Iletisim</a></li>
-                        <li><a href="/sss">SSS</a></li>
+                        <li><a href="/">Ana Sayfa</a></li>
+                        <li><a href="/anti-aging-takviye-2026">2026 Rehberi</a></li>
+                        <li><a href="/#newsletter">Bulten</a></li>
+                        <li><a href="/#iletisim">Iletisim</a></li>
                     </ul>
                 </nav>
 
-                <nav class="footer-nav" aria-label="Yasal">
-                    <h3>Yasal</h3>
-                    <ul>
-                        <li><a href="/gizlilik-politikasi">Gizlilik Politikasi</a></li>
-                        <li><a href="/kullanim-kosullari">Kullanim Kosullari</a></li>
-                        <li><a href="/cerez-politikasi">Cerez Politikasi</a></li>
-                        <li><a href="/kvkk">KVKK Aydinlatma Metni</a></li>
-                    </ul>
-                </nav>
             </div>
 
             <div class="footer-disclaimer">
@@ -511,8 +481,7 @@
             <div class="footer-bottom">
                 <p>&copy; <span id="current-year">2024</span> LongevityLab. Tum haklari saklidir.</p>
                 <p>
-                    <a href="/sitemap.xml" rel="nofollow">Site Haritasi</a> |
-                    <a href="/rss" rel="alternate" type="application/rss+xml">RSS</a>
+                    <a href="/sitemap.xml" rel="nofollow">Site Haritasi</a>
                 </p>
             </div>
         </div>
@@ -530,13 +499,13 @@
             <p id="cookie-description">Daha iyi bir deneyim icin cerezleri kullaniyoruz. Devam ederek cerez politikamizi kabul etmis olursunuz.</p>
             <div class="cookie-actions">
                 <button id="accept-cookies" class="btn-primary">Kabul Et</button>
-                <a href="/cerez-politikasi" class="btn-secondary">Daha Fazla Bilgi</a>
+                <a href="/#iletisim" class="btn-secondary">Daha Fazla Bilgi</a>
             </div>
         </div>
     </div>
 
     <!-- JavaScript -->
-    <script src="js/main.js" defer></script>
+    <script src="/js/main.js" defer></script>
 </body>
 </html>
 
