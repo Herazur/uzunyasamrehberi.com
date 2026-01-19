@@ -1,6 +1,6 @@
 {
-    "name": "LongevityLab",
-    "short_name": "LongevityLab",
+    "name": "Uzun Yasam Rehberi",
+    "short_name": "Uzun Yasam Rehberi",
     "description": "Biohacking ve longevity odakli rehber. Kanita dayali protokoller ve takip metrikleri.",
     "lang": "tr-TR",
     "start_url": "/",
