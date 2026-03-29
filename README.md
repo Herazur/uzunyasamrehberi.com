@@ -1,225 +1,113 @@
-# 🏥 Sağlık Rehberi - SEO Optimizasyonlu Türkçe Sağlık Blogu
+# 🧬 Uzun Yaşam Rehberi - Bilimsel Sağlık ve Longevity Blogu
 
-Türkiye'nin en güvenilir sağlık bilgi platformu. %100 SEO optimizasyonlu, modern ve mobil uyumlu sağlık blogu.
+![Uzun Yaşam Rehberi Banner](images/banner.png)
 
-## 📋 Proje Özeti
+<div align="center">
 
-Bu proje, sağlık alanında içerik paylaşmak için geliştirilmiş, SEO açısından tamamen optimize edilmiş bir Türkçe blog platformudur.
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![SEO Score](https://img.shields.io/badge/SEO-100%2F100-success)](https://pagespeed.web.dev/)
+[![Performance](https://img.shields.io/badge/Performance-High-brightgreen)](https://pagespeed.web.dev/)
+[![PWA](https://img.shields.io/badge/PWA-Ready-orange)](manifest.json)
+[![Language](https://img.shields.io/badge/Language-Türkçe-red)]()
 
-## ✅ Tamamlanan Özellikler
+**Türkiye'nin en kapsamlı uzun yaşam (longevity) ve bilimsel sağlık bilgi platformu.**
 
-### 🔍 SEO Optimizasyonu (%100)
+[🌍 Website](https://uzunyasamrehberi.com) • [📧 İletişim](mailto:iletisim@uzunyasamrehberi.com) • [🐦 Twitter](https://twitter.com/saglikrehberi)
 
-#### Meta Etiketleri
-- ✅ Title ve Description meta etiketleri
-- ✅ Keywords meta etiketi
-- ✅ Robots meta direktifleri
-- ✅ Canonical URL'ler
-- ✅ Hreflang etiketleri (Türkçe)
-- ✅ Viewport ve mobile-friendly meta etiketleri
-
-#### Open Graph (Facebook, LinkedIn)
-- ✅ og:type, og:title, og:description
-- ✅ og:url, og:image (1200x630)
-- ✅ og:locale (tr_TR)
-- ✅ article:published_time, article:modified_time
-- ✅ article:author, article:section, article:tag
-
-#### Twitter Cards
-- ✅ twitter:card (summary_large_image)
-- ✅ twitter:title, twitter:description
-- ✅ twitter:image, twitter:image:alt
-- ✅ twitter:site, twitter:creator
-
-#### Schema.org Yapılandırılmış Veri
-- ✅ WebSite schema (site çapında arama desteği)
-- ✅ Organization schema
-- ✅ MedicalWebPage schema
-- ✅ Article schema (makaleler için)
-- ✅ BreadcrumbList schema
-- ✅ FAQPage schema (otomatik oluşturma)
-- ✅ Person schema (yazarlar için)
-
-#### Teknik SEO
-- ✅ robots.txt (arama motoru yönergeleri)
-- ✅ sitemap.xml (site haritası)
-- ✅ Semantic HTML5 yapısı
-- ✅ SEO dostu URL yapısı (slug)
-- ✅ Breadcrumb navigasyonu
-- ✅ İç bağlantı yapısı
-
-### 🎨 Tasarım ve Kullanıcı Deneyimi
-
-- ✅ Modern ve profesyonel tasarım
-- ✅ %100 mobil uyumlu (responsive)
-- ✅ Hızlı yüklenen sayfa yapısı
-- ✅ Koyu/açık tema desteği hazır
-- ✅ Erişilebilirlik (WCAG 2.1 uyumlu)
-- ✅ Print styles
-
-### 📱 PWA Desteği
-
-- ✅ manifest.json
-- ✅ App ikonu yapılandırması
-- ✅ Offline ready altyapı
-
-### ♿ Erişilebilirlik
-
-- ✅ Skip link (içeriğe atla)
-- ✅ ARIA etiketleri
-- ✅ Keyboard navigation
-- ✅ Screen reader uyumu
-- ✅ Focus states
-- ✅ Alt text'ler
-- ✅ Reduced motion desteği
-
-## 📁 Dosya Yapısı
-
-```
-/
-├── index.html              # Ana sayfa
-├── makale.html             # Makale detay sayfası
-├── robots.txt              # Arama motoru yönergeleri
-├── sitemap.xml             # Site haritası
-├── manifest.json           # PWA manifest
-├── css/
-│   └── style.css           # Ana stil dosyası
-├── js/
-│   ├── main.js             # Ana JavaScript
-│   └── article.js          # Makale sayfası JS
-└── README.md               # Bu dosya
-```
-
-## 🔗 Sayfa URL'leri
-
-| Sayfa | URL | Açıklama |
-|-------|-----|----------|
-| Ana Sayfa | `/` veya `/index.html` | Blog ana sayfası |
-| Makale | `/makale.html?id={id}&slug={slug}` | Makale detay sayfası |
-| Kategori | `/kategori/{slug}` | Kategori sayfası |
-| Etiket | `/etiket/{slug}` | Etiket sayfası |
-| Yazar | `/yazar/{slug}` | Yazar profili |
-| Arama | `/arama?q={query}` | Arama sonuçları |
-
-## 📊 Veri Modelleri
-
-### Articles (Makaleler)
-```javascript
-{
-    id: "text",              // Benzersiz kimlik
-    title: "text",           // Başlık (SEO)
-    slug: "text",            // URL slug
-    excerpt: "text",         // Özet (meta description)
-    content: "rich_text",    // HTML içerik
-    category: "text",        // Kategori
-    tags: "array",           // Etiketler
-    image: "text",           // Öne çıkan görsel URL
-    image_caption: "text",   // Görsel alt yazısı
-    author: "text",          // Yazar adı
-    author_title: "text",    // Yazar unvanı
-    author_image: "text",    // Yazar fotoğrafı
-    author_bio: "text",      // Yazar biyografisi
-    view_count: "number",    // Görüntülenme sayısı
-    is_featured: "bool",     // Öne çıkan mı?
-    is_published: "bool",    // Yayınlandı mı?
-    meta_title: "text",      // Özel SEO başlığı
-    meta_description: "text" // Özel meta açıklama
-}
-```
-
-### Categories (Kategoriler)
-```javascript
-{
-    id: "text",              // Benzersiz kimlik
-    name: "text",            // Kategori adı
-    slug: "text",            // URL slug
-    description: "text",     // Açıklama
-    icon: "text",            // Font Awesome ikon
-    color: "text",           // Renk (hex)
-    article_count: "number", // Makale sayısı
-    meta_title: "text",      // SEO başlığı
-    meta_description: "text" // SEO açıklaması
-}
-```
-
-## 🔌 API Endpoints
-
-RESTful Table API kullanılmaktadır:
-
-```javascript
-// Makaleleri listele
-GET /tables/articles?page=1&limit=10&sort=-created_at
-
-// Tek makale getir
-GET /tables/articles/{id}
-
-// Yeni makale oluştur
-POST /tables/articles
-Body: { title, content, category, ... }
-
-// Makale güncelle
-PATCH /tables/articles/{id}
-Body: { view_count: 1251 }
-
-// Makale sil
-DELETE /tables/articles/{id}
-```
-
-## 🚀 Yayınlama
-
-Website'i yayınlamak için **Publish** sekmesini kullanın.
-
-## 📈 SEO Kontrol Listesi
-
-### Google Search Console İçin
-- [ ] Site doğrulaması yapın
-- [ ] Sitemap.xml gönderimi
-- [ ] URL inceleme
-- [ ] Mobil uyumluluk testi
-
-### Google Analytics İçin
-- [ ] GA4 tracking kodu ekleyin
-- [ ] Conversion tracking
-- [ ] Event tracking
-
-### Performans İzleme
-- [ ] Core Web Vitals (LCP, FID, CLS)
-- [ ] PageSpeed Insights testi
-- [ ] Mobile-Friendly testi
-
-## 🔧 Yapılabilecek Geliştirmeler
-
-1. **AMP Desteği** - Google AMP sayfaları
-2. **Çok Dilli Destek** - i18n altyapısı
-3. **Yorum Sistemi** - Disqus veya özel çözüm
-4. **Newsletter Entegrasyonu** - Mailchimp, Sendinblue
-5. **Arama Fonksiyonu** - Full-text search
-6. **Admin Paneli** - İçerik yönetim arayüzü
-7. **Sosyal Giriş** - Google, Facebook login
-8. **RSS Feed** - Otomatik RSS oluşturma
-
-## 🎯 SEO İpuçları
-
-### İçerik Oluşturma
-- Her makale için benzersiz meta description yazın (150-160 karakter)
-- Başlıklarda anahtar kelimeler kullanın
-- H1, H2, H3 hiyerarşisine dikkat edin
-- Dahili bağlantılar ekleyin
-- Görsel alt text'lerini ihmal etmeyin
-
-### Teknik
-- Sayfa yükleme hızını optimize edin
-- Görsel boyutlarını optimize edin (WebP)
-- Lazy loading kullanın
-- HTTP/2 ve CDN kullanın
-- SSL sertifikası kullanın
-
-## 📞 İletişim
-
-- **Website**: uzunyasamrehberi.com
-- **Email**: iletisim@uzunyasamrehberi.com
-- **Twitter**: @saglikrehberi
+</div>
 
 ---
 
-© 2024 Sağlık Rehberi. Tüm hakları saklıdır.
+## 🌟 Proje Vizyonu
+
+**Uzun Yaşam Rehberi**, modern tıp ve biyoteknolojik gelişmeleri temel alarak, bireylerin daha sağlıklı, enerjik ve uzun bir yaşam sürmeleri için gerekli olan bilimsel bilgileri erişilebilir kılmayı amaçlar. %100 SEO optimizasyonlu, modern ve mobil uyumlu bir altyapı ile hazırlanmıştır.
+
+## 🚀 Öne Çıkan Özellikler
+
+### 🔍 Kusursuz SEO Altyapısı
+- **Meta Yönetimi**: Tüm sayfalar için dinamik Title, Description ve Canonical etiketleri.
+- **Sosyal Medya**: Facebook, LinkedIn (Open Graph) ve Twitter (Cards) için tam uyumlu veri yapıları.
+- **Schema.org**: Article, FAQPage, MedicalWebPage ve BreadcrumbList şemaları ile arama sonuçlarında zengin görünüm.
+- **Teknik SEO**: Optimize edilmiş `robots.txt` ve `sitemap.xml` dosyaları.
+
+### 🎨 Modern Kullanıcı Deneyimi (UX)
+- **Responsive Tasarım**: Tüm ekran boyutlarında (Mobil, Tablet, Masaüstü) mükemmel görünüm.
+- **Hız Odaklı**: Minimalist kod yapısı ve WebP görsel formatı ile anlık yüklenme süreleri.
+- **Erişilebilirlik**: WCAG 2.1 standartlarına uyumlu, ekran okuyucu dostu geliştirme.
+- **PWA Desteği**: Uygulama gibi yüklenebilir (Installable) ve manifest.json yapılandırması hazır.
+
+---
+
+## 📁 Dosya Yapısı
+
+```bash
+/
+├── index.html              # Modern ana sayfa
+├── makale.html             # Dinamik makale detay şablonu
+├── robots.txt              # Arama motoru yönergeleri
+├── sitemap.xml             # XML Site haritası
+├── manifest.json           # PWA konfigürasyonu
+├── css/
+│   └── style.css           # Modern CSS3 stilleri
+├── js/
+│   ├── main.js             # Ana uygulama mantığı
+│   └── article.js          # Makale sayfa yönetimi
+├── images/                 # Optimize edilmiş görseller (WebP/PNG)
+└── README.md               # Proje dökümantasyonu
+```
+
+---
+
+## 🔬 Teknik Detaylar
+
+### Makale Veri Modeli
+Proje, RESTful Table API ile entegre çalışacak şekilde tasarlanmıştır:
+
+| Parametre | Tip | Açıklama |
+| :--- | :--- | :--- |
+| `id` | String | Benzersiz kimlik |
+| `title` | String | SEO uyumlu başlık |
+| `slug` | String | URL dostu başlık |
+| `excerpt` | String | Meta açıklama ve özet |
+| `content` | Rich Text | HTML makale içeriği |
+| `category` | String | Ana kategori |
+
+### Kullanılan Teknolojiler
+- **HTML5/CSS3**: Semantik yapı ve modern styling.
+- **Vanilla JS**: Hafif ve hızlı çalışma prensibi.
+- **JSON-LD**: Yapılandırılmış veri (Structured Data) yönetimi.
+- **PWA**: Web App Manifest ve Servis Worker hazırlığı.
+
+---
+
+## 📈 SEO ve Performans Yol Haritası
+
+- [x] %100 SEO Meta Etiket Yapılandırması
+- [x] Schema.org Entegrasyonu
+- [x] Mobil Uyumluluk Testleri
+- [ ] Google Search Console Doğrulaması
+- [ ] GA4 Analytics Entegrasyonu
+- [ ] Core Web Vitals Optimizasyonu
+
+---
+
+## 🛠️ Gelecek Geliştirmeler
+
+1.  **AMP Entegrasyonu**: Mobil hızın zirvesi için Accelerated Mobile Pages.
+2.  **Kullanıcı Paneli**: Favori makaleleri kaydetme ve newsletter aboneliği.
+3.  **Yorum Sistemi**: Interaktif topluluk alanı (Disqus/Custom).
+4.  **Admin Dashboard**: İçerik girişini kolaylaştıran yönetim arayüzü.
+
+---
+
+## 👥 İletişim & Sosyal Medya
+
+- **Web**: [uzunyasamrehberi.com](https://uzunyasamrehberi.com)
+- **E-posta**: [iletisim@uzunyasamrehberi.com](mailto:iletisim@uzunyasamrehberi.com)
+- **Geliştirici**: [@Herazur](https://github.com/Herazur)
+
+---
+
+<div align="center">
+  <p>© 2026 Uzun Yaşam Rehberi. Bilimin Işığında Sağlıklı Yarınlar.</p>
+</div>
