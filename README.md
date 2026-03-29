@@ -12,7 +12,7 @@
 
 **Türkiye'nin en kapsamlı uzun yaşam (longevity) ve bilimsel sağlık bilgi platformu.**
 
-[🌍 Website](https://uzunyasamrehberi.com) • [📧 İletişim](mailto:iletisim@uzunyasamrehberi.com) • [🐦 Twitter](https://twitter.com/saglikrehberi)
+[🌍 Website](https://uzunyasamrehberi.com) • [🐦 Twitter](https://x.com/herazura)
 
 </div>
 
@@ -101,9 +101,8 @@ Proje, RESTful Table API ile entegre çalışacak şekilde tasarlanmıştır:
 ---
 
 ## 👥 İletişim & Sosyal Medya
-
 - **Web**: [uzunyasamrehberi.com](https://uzunyasamrehberi.com)
-- **E-posta**: [iletisim@uzunyasamrehberi.com](mailto:iletisim@uzunyasamrehberi.com)
+- **Twitter**: [@herazura](https://x.com/herazura)
 - **Geliştirici**: [@Herazur](https://github.com/Herazur)
 
 ---
